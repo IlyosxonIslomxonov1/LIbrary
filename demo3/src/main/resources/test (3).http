@@ -1,0 +1,15 @@
+
+### api/v1/users creation
+POST http://localhost:8080/api/v1/users/create
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "ali",
+  "email": "ali@example.com"
+
+}
+
+
+### api/v1/person delete
+DELETE http://localhost:8080/api/v1/users/delete?id=1
