@@ -1,0 +1,27 @@
+
+### api/v1/library creation
+POST http://localhost:8080/api/v1/library/create
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "adabiyot",
+  "title": "Java Asoslari",
+  "author": "Joshua Bloch",
+  "year": 2018
+}
+
+### api/v1/library update
+PUT http://localhost:8080/api/v1/library/update/1
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "matem",
+  "title": "Java Peshqadam",
+  "author": "Joshua Bloch",
+  "year": 2020
+}
+
+### api/v1/library delete
+DELETE http://localhost:8080/api/v1/person/delete?id=1
